@@ -5,7 +5,7 @@ It includes every header file included  in your version of c++ as well as any pr
 As of 2026-02-11, my version of clang++ (clang-1500.3.9.4), is missing one c++20 header (`<syncstream>`), and most of the c++23/c++26 headers. These have been commented out, but feel free to include them if your compiler supports it.
 
 # Usage
-Clone, and place in an include directory your install of clang has been set to use. Easiest on MacOS is `/usr/local/include/`. Personally, I created a `./bits/` dir in the above directory.
+Clone, and place `stdc++.h` in an include directory compiler has been configured to search. Easiest on MacOS is `/usr/local/include/`. Personally, I created a `/usr/local/include//bits/` dir so it feels like the gcc version.
 
 ## nvim LSP note
 For nvim users (especially those like me who suck at configs):
