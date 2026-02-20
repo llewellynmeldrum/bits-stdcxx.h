@@ -11,6 +11,8 @@ Clone, and place `stdc++.h` in an include directory compiler has been configured
 For nvim users (especially those like me who suck at configs):
 - If you use `clangd`, and its failing to see the file; (`file bits/stdc++.h not found`), put the following snippet in this directory:
 ```yaml
+# file: ~/Library/Preferences/clangd/config.yaml
+
 If:
   PathMatch: ['.*\.(cpp|hpp|cc|cxx|hh|hxx)$']
 CompileFlags:
